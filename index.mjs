@@ -42,6 +42,8 @@ app.get('/nasaPod', async(req, res) => {
    res.render('nasa.ejs', {nasaImageUrl});
 });
 
-app.listen(3000, () => {
-   console.log('server started');
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log('server started');
 });
