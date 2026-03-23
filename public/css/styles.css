@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+footer {
+    background-color: #0A205A;
+    text-align: left;
+    color: white;
+    padding: 20px;
+    font-size: 0.8em;
+}
+
+img {
+    border: 5px solid #3A4C7A;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px black;
+    margin: 10px;
+}
